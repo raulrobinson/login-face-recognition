@@ -4,3 +4,14 @@ motor~=3.6.0
 uvicorn~=0.32.0
 pydantic~=2.9.2
 pymongo~=4.9.2
+grpcio~=1.67.0
+grpcio-tools
+opencv-python~=4.10.0.84
+face-recognition
+pydantic~=2.9.2
+protobuf~=5.28.3
+insightface
+torch
+torchvision
+torchaudio
+onnxruntime
