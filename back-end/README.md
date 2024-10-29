@@ -1,6 +1,6 @@
-# Face Recognition Base
+# Face Recognition Backend
 
-Python project for face recognition using OpenCV and InsightFace
+Python project for face recognition using OpenCV and InsightFace and FastAPI for REST API.
 
 ## Installation
 
