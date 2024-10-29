@@ -38,5 +38,41 @@ python .\main.py
 http://localhost:8080/docs
 ```
 
+* Validate
+```bash
+curl -X 'POST' \
+  'http://localhost:8080/face-id/checkpoint/email' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "email": "user@example.com"
+}'
+```
+
+* Register
+```bash
+curl -X 'POST' \
+  'http://localhost:8080/face-id/register' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "email": "rasysbox@hotmail.com",
+  "image": "iVBORw0KGgoAAAANS...iVAlKgAAAABJRU5ErkJggg=="
+}'
+```
+
+* Login
+```bash
+curl -X 'POST' \
+  'http://localhost:8080/face-id/login' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "email": "rasysbox@hotmail.com",
+  "image": "iVBORw0KGgoAAAANS...iVAlKgAAAABJRU5ErkJggg=="
+}'
+```
+
+
 ## License
 MIT License
