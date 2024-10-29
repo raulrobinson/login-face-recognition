@@ -1,0 +1,6 @@
+fastapi~=0.115.3
+bcrypt~=4.2.0
+motor~=3.6.0
+uvicorn~=0.32.0
+pydantic~=2.9.2
+pymongo~=4.9.2
