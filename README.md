@@ -17,6 +17,13 @@ python.exe -m pip install --upgrade pip
 # pip install git+ 
 ```
 
+### MongoDB
+
+* Install MongoDB
+```bash
+docker run -d -p 27017:27017 --name mongodb mongo
+```
+
 ## Usage
 
 * Tag Face in Image from Webcam. **'q'** to quit
